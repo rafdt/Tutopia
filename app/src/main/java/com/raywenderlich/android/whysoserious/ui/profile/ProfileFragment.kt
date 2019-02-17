@@ -25,6 +25,8 @@ package com.raywenderlich.android.whysoserious.ui.profile
 import android.app.Activity.RESULT_OK
 import android.content.ContentResolver
 import android.content.Intent
+import android.graphics.Bitmap
+import android.graphics.BitmapFactory
 import android.net.Uri
 import android.os.Bundle
 import android.os.Handler
@@ -38,6 +40,7 @@ import android.view.View
 import android.view.ViewGroup
 import android.webkit.MimeTypeMap
 import android.widget.Button
+import android.widget.ImageView
 import android.widget.Toast
 import com.bumptech.glide.Glide
 import com.google.android.gms.tasks.OnFailureListener
@@ -52,8 +55,10 @@ import com.google.firebase.storage.UploadTask
 import com.raywenderlich.android.whysoserious.R
 import com.raywenderlich.android.whysoserious.Upload
 import com.raywenderlich.android.whysoserious.common.onClick
+import com.raywenderlich.android.whysoserious.model.Joke
 import com.raywenderlich.android.whysoserious.model.User
 import com.raywenderlich.android.whysoserious.profilePresenter
+import com.raywenderlich.android.whysoserious.ui.jokes.all.list.JokeHolder
 import com.raywenderlich.android.whysoserious.ui.welcome.WelcomeActivity
 import com.squareup.picasso.Picasso
 import kotlinx.android.synthetic.main.activity_register.*
@@ -68,6 +73,7 @@ class ProfileFragment : Fragment(), ProfileView {
   private val PICK_IMAGE_REQUEST = 1
   var user = ""
   var isChosen = false
+    var numtimes = 1
   private lateinit var database: DatabaseReference
   var myUri: Uri = Uri.parse("http://google.com");
 
@@ -165,7 +171,6 @@ class ProfileFragment : Fragment(), ProfileView {
   override fun showUsername(username: String) {
     userName.text = getString(R.string.username_text, username)
     user = userName.text.toString().substring(userName.text.toString().lastIndexOf(": ")+2)
-    showTutor(user)
   }
 
   override fun showEmail(email: String) {
@@ -180,38 +185,21 @@ class ProfileFragment : Fragment(), ProfileView {
     startActivity(Intent(activity, WelcomeActivity::class.java))
     activity?.finish()
   }
-  fun showTutor(tutor: String){
-    //tutorpic
-    //val storage = FirebaseStorage.getInstance()
-    // Create a storage reference from our app
-    //val storageRef = storage.reference
 
-// Create a reference with an initial file path and name
-    //val pathReference = storageRef.child("uploads/"+tutor+".jpg")
-    /*
-    var myTutor: Task<Uri> = storageRef.child("uploads/"+tutor+".jpg").downloadUrl.addOnSuccessListener {
-      // Got the download URL for 'users/me/profile.png'
-        Toast.makeText(context,"downloaded successfully", Toast.LENGTH_LONG).show()
-    }.addOnFailureListener {
-      // Handle any errors
-      Toast.makeText(context,"downloaded fail", Toast.LENGTH_LONG).show()
-
-    }.addOnCompleteListener {
-      Toast.makeText(context,"downloaded donezo", Toast.LENGTH_LONG).show()
-      //Glide.with(this!!.context!!).load(pathReference).into(tutorPic)
-     // Glide.with(this!!.context!!).load("https://firebasestorage.googleapis.com/v0/b/why-so-serious-49ff6.appspot.com/o/uploads%2Fhelloworld.jpg?alt=media&token=d20de023-6629-4252-9197-e3de00829244").into(tutorPic)
-        try {
-          context?.let { it1 -> Glide.with(it1).load(pathReference).into(tutorPic) };
-        } catch (exception:Exception) {
-
-          Toast.makeText(context,"cannot glide " + pathReference.toString(), Toast.LENGTH_LONG).show()
-          Log.d("error",pathReference.toString())
-          exception.printStackTrace();
+    /*fun show_profile(user: String, view: View) {
+        val nameAuthor = user
+        val storage = FirebaseStorage.getInstance()
+        val storageRef = storage.reference
+        val pathReference = storageRef.child("uploads/" + nameAuthor + ".jpg")
+        Toast.makeText(context, pathReference.toString(), Toast.LENGTH_LONG).show()
+        val ONE_MEGABYTE = (1024 * 1024 * 5).toLong()
+        pathReference.getBytes(ONE_MEGABYTE).addOnSuccessListener { bytes ->
+            val bmp = BitmapFactory.decodeByteArray(bytes, 0, bytes.size)
+            view.findViewById<ImageView>(R.id.userPic).setImageBitmap(bmp)
         }
-    }
-*/
 
-  }
+    }*/
+
 }
 
 

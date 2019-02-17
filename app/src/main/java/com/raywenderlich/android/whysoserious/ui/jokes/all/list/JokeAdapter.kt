@@ -122,4 +122,6 @@ class JokeAdapter(
     items.add(joke)
     notifyItemInserted(items.size - 1)
   }
+
+
 }

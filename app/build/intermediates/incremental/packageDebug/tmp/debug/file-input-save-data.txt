@@ -1,7 +1,11 @@
 #Internal package file, do not edit.
-#Sun Feb 17 08:06:03 PST 2019
+#Sun Feb 17 08:47:38 PST 2019
+1.base=/Users/rafaeltuazon/Desktop/TutorConnect/app/build/intermediates/transforms/dexMerger/debug/12
 0.baseType=DIRECTORY
-0.base=/Users/rafaeltuazon/Desktop/Whysoserious---final/app/build/intermediates/transforms/dexMerger/debug/0
+1.baseType=DIRECTORY
+count=2
+1.set=DEX
 0.path=classes.dex
 0.set=DEX
-count=1
+0.base=/Users/rafaeltuazon/Desktop/TutorConnect/app/build/intermediates/transforms/dexMerger/debug/11
+1.path=classes.dex

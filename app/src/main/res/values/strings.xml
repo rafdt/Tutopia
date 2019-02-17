@@ -22,9 +22,9 @@
   <string name="error_title">Oops</string>
   <string name="error_message">Something went wrong! Please try again.</string>
   <string name="general_positive_button">OK</string>
-  <string name="joke_hint">Enter your joke</string>
-  <string name="add_joke_text">Add joke</string>
-  <string name="joke_error">Each joke must have at least 10 characters</string>
+  <string name="joke_hint">Enter your information</string>
+  <string name="add_joke_text">Add post</string>
+  <string name="joke_error">Each post must have at least 10 characters</string>
     <string name="pick_profile_image">pick profile image!</string>
   <string name="todo">TODO</string>
 </resources>

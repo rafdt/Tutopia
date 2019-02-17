@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/rafaeltuazon/Desktop/Whysoserious---final/app/src/main/AndroidManifest.xml:2:1-42:12
-INJECTED from /Users/rafaeltuazon/Desktop/Whysoserious---final/app/src/main/AndroidManifest.xml:2:1-42:12
-INJECTED from /Users/rafaeltuazon/Desktop/Whysoserious---final/app/src/main/AndroidManifest.xml:2:1-42:12
-INJECTED from /Users/rafaeltuazon/Desktop/Whysoserious---final/app/src/main/AndroidManifest.xml:2:1-42:12
+ADDED from /Users/rafaeltuazon/Desktop/TutorConnect/app/src/main/AndroidManifest.xml:2:1-42:12
+INJECTED from /Users/rafaeltuazon/Desktop/TutorConnect/app/src/main/AndroidManifest.xml:2:1-42:12
+INJECTED from /Users/rafaeltuazon/Desktop/TutorConnect/app/src/main/AndroidManifest.xml:2:1-42:12
+INJECTED from /Users/rafaeltuazon/Desktop/TutorConnect/app/src/main/AndroidManifest.xml:2:1-42:12
 MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/rafaeltuazon/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/25d22278efb15d19051533a1be52fa3a/AndroidManifest.xml:2:1-11:12
 MERGED from [com.android.support:design:27.1.1] /Users/rafaeltuazon/.gradle/caches/transforms-1/files-1.1/design-27.1.1.aar/f30ac40550ab40ad83cc45dcf6356c12/AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:appcompat-v7:27.1.1] /Users/rafaeltuazon/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/8f1ab4aa13a3771a8ef9d927a587f831/AndroidManifest.xml:17:1-22:12
@@ -42,25 +42,25 @@ MERGED from [com.google.android.gms:play-services-measurement-base:15.0.2] /User
 MERGED from [android.arch.lifecycle:livedata-core:1.1.0] /Users/rafaeltuazon/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.0.aar/c97cef81187ec6530720f15c6bfcd47d/AndroidManifest.xml:17:1-22:12
 MERGED from [android.arch.core:runtime:1.1.0] /Users/rafaeltuazon/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/f05d12a015338a04e5616b30d2f99412/AndroidManifest.xml:17:1-22:12
 MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /Users/rafaeltuazon/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.0.aar/711f8a87ba47c887727f90cd9f4c5731/AndroidManifest.xml:17:1-22:12
-INJECTED from /Users/rafaeltuazon/Desktop/Whysoserious---final/app/src/main/AndroidManifest.xml:2:1-42:12
-INJECTED from /Users/rafaeltuazon/Desktop/Whysoserious---final/app/src/main/AndroidManifest.xml:2:1-42:12
-INJECTED from /Users/rafaeltuazon/Desktop/Whysoserious---final/app/src/main/AndroidManifest.xml:2:1-42:12
+INJECTED from /Users/rafaeltuazon/Desktop/TutorConnect/app/src/main/AndroidManifest.xml:2:1-42:12
+INJECTED from /Users/rafaeltuazon/Desktop/TutorConnect/app/src/main/AndroidManifest.xml:2:1-42:12
+INJECTED from /Users/rafaeltuazon/Desktop/TutorConnect/app/src/main/AndroidManifest.xml:2:1-42:12
 	package
-		ADDED from /Users/rafaeltuazon/Desktop/Whysoserious---final/app/src/main/AndroidManifest.xml:3:11-59
-		INJECTED from /Users/rafaeltuazon/Desktop/Whysoserious---final/app/src/main/AndroidManifest.xml
-		INJECTED from /Users/rafaeltuazon/Desktop/Whysoserious---final/app/src/main/AndroidManifest.xml
+		ADDED from /Users/rafaeltuazon/Desktop/TutorConnect/app/src/main/AndroidManifest.xml:3:11-59
+		INJECTED from /Users/rafaeltuazon/Desktop/TutorConnect/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/rafaeltuazon/Desktop/TutorConnect/app/src/main/AndroidManifest.xml
 	android:versionName
-		INJECTED from /Users/rafaeltuazon/Desktop/Whysoserious---final/app/src/main/AndroidManifest.xml
-		ADDED from /Users/rafaeltuazon/Desktop/Whysoserious---final/app/src/main/AndroidManifest.xml:2:1-42:12
-		INJECTED from /Users/rafaeltuazon/Desktop/Whysoserious---final/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/rafaeltuazon/Desktop/TutorConnect/app/src/main/AndroidManifest.xml
+		ADDED from /Users/rafaeltuazon/Desktop/TutorConnect/app/src/main/AndroidManifest.xml:2:1-42:12
+		INJECTED from /Users/rafaeltuazon/Desktop/TutorConnect/app/src/main/AndroidManifest.xml
 	android:versionCode
-		INJECTED from /Users/rafaeltuazon/Desktop/Whysoserious---final/app/src/main/AndroidManifest.xml
-		ADDED from /Users/rafaeltuazon/Desktop/Whysoserious---final/app/src/main/AndroidManifest.xml:2:1-42:12
-		INJECTED from /Users/rafaeltuazon/Desktop/Whysoserious---final/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/rafaeltuazon/Desktop/TutorConnect/app/src/main/AndroidManifest.xml
+		ADDED from /Users/rafaeltuazon/Desktop/TutorConnect/app/src/main/AndroidManifest.xml:2:1-42:12
+		INJECTED from /Users/rafaeltuazon/Desktop/TutorConnect/app/src/main/AndroidManifest.xml
 	xmlns:android
-		ADDED from /Users/rafaeltuazon/Desktop/Whysoserious---final/app/src/main/AndroidManifest.xml:2:11-69
+		ADDED from /Users/rafaeltuazon/Desktop/TutorConnect/app/src/main/AndroidManifest.xml:2:11-69
 uses-permission#android.permission.INTERNET
-ADDED from /Users/rafaeltuazon/Desktop/Whysoserious---final/app/src/main/AndroidManifest.xml:4:3-64
+ADDED from /Users/rafaeltuazon/Desktop/TutorConnect/app/src/main/AndroidManifest.xml:4:3-64
 MERGED from [com.google.firebase:firebase-storage:16.0.5] /Users/rafaeltuazon/.gradle/caches/transforms-1/files-1.1/firebase-storage-16.0.5.aar/cebdb59ed819ef01ac8c15de01610da1/AndroidManifest.xml:24:5-67
 MERGED from [com.google.firebase:firebase-storage:16.0.5] /Users/rafaeltuazon/.gradle/caches/transforms-1/files-1.1/firebase-storage-16.0.5.aar/cebdb59ed819ef01ac8c15de01610da1/AndroidManifest.xml:24:5-67
 MERGED from [com.google.firebase:firebase-analytics:15.0.2] /Users/rafaeltuazon/.gradle/caches/transforms-1/files-1.1/firebase-analytics-15.0.2.aar/b4c562c931391ab61ec918f1d95485a1/AndroidManifest.xml:23:5-67
@@ -70,9 +70,9 @@ MERGED from [com.google.firebase:firebase-analytics-impl:15.0.2] /Users/rafaeltu
 MERGED from [com.google.firebase:firebase-iid:15.1.0] /Users/rafaeltuazon/.gradle/caches/transforms-1/files-1.1/firebase-iid-15.1.0.aar/e731d17c4ddcf94bc69a3d767ab396d4/AndroidManifest.xml:23:5-67
 MERGED from [com.google.firebase:firebase-iid:15.1.0] /Users/rafaeltuazon/.gradle/caches/transforms-1/files-1.1/firebase-iid-15.1.0.aar/e731d17c4ddcf94bc69a3d767ab396d4/AndroidManifest.xml:23:5-67
 	android:name
-		ADDED from /Users/rafaeltuazon/Desktop/Whysoserious---final/app/src/main/AndroidManifest.xml:4:20-62
+		ADDED from /Users/rafaeltuazon/Desktop/TutorConnect/app/src/main/AndroidManifest.xml:4:20-62
 application
-ADDED from /Users/rafaeltuazon/Desktop/Whysoserious---final/app/src/main/AndroidManifest.xml:5:3-41:17
+ADDED from /Users/rafaeltuazon/Desktop/TutorConnect/app/src/main/AndroidManifest.xml:5:3-41:17
 MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/rafaeltuazon/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/25d22278efb15d19051533a1be52fa3a/AndroidManifest.xml:9:5-20
 MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/rafaeltuazon/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/25d22278efb15d19051533a1be52fa3a/AndroidManifest.xml:9:5-20
 MERGED from [com.google.firebase:firebase-core:15.0.0] /Users/rafaeltuazon/.gradle/caches/transforms-1/files-1.1/firebase-core-15.0.0.aar/1e430751ac9dac51406734007c16dc7e/AndroidManifest.xml:7:5-20
@@ -106,69 +106,69 @@ MERGED from [com.github.bumptech.glide:gifdecoder:4.6.1] /Users/rafaeltuazon/.gr
 MERGED from [com.google.android.gms:play-services-measurement-base:15.0.2] /Users/rafaeltuazon/.gradle/caches/transforms-1/files-1.1/play-services-measurement-base-15.0.2.aar/a75a50a1e7c06ea1ae2c689d98d16ba6/AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.gms:play-services-measurement-base:15.0.2] /Users/rafaeltuazon/.gradle/caches/transforms-1/files-1.1/play-services-measurement-base-15.0.2.aar/a75a50a1e7c06ea1ae2c689d98d16ba6/AndroidManifest.xml:22:5-20
 	android:supportsRtl
-		ADDED from /Users/rafaeltuazon/Desktop/Whysoserious---final/app/src/main/AndroidManifest.xml:11:7-33
+		ADDED from /Users/rafaeltuazon/Desktop/TutorConnect/app/src/main/AndroidManifest.xml:11:7-33
 	android:label
-		ADDED from /Users/rafaeltuazon/Desktop/Whysoserious---final/app/src/main/AndroidManifest.xml:9:7-39
+		ADDED from /Users/rafaeltuazon/Desktop/TutorConnect/app/src/main/AndroidManifest.xml:9:7-39
 	android:roundIcon
-		ADDED from /Users/rafaeltuazon/Desktop/Whysoserious---final/app/src/main/AndroidManifest.xml:10:7-52
+		ADDED from /Users/rafaeltuazon/Desktop/TutorConnect/app/src/main/AndroidManifest.xml:10:7-52
 	android:icon
-		ADDED from /Users/rafaeltuazon/Desktop/Whysoserious---final/app/src/main/AndroidManifest.xml:8:7-41
+		ADDED from /Users/rafaeltuazon/Desktop/TutorConnect/app/src/main/AndroidManifest.xml:8:7-41
 	android:allowBackup
-		ADDED from /Users/rafaeltuazon/Desktop/Whysoserious---final/app/src/main/AndroidManifest.xml:7:7-33
+		ADDED from /Users/rafaeltuazon/Desktop/TutorConnect/app/src/main/AndroidManifest.xml:7:7-33
 	android:theme
-		ADDED from /Users/rafaeltuazon/Desktop/Whysoserious---final/app/src/main/AndroidManifest.xml:12:7-38
+		ADDED from /Users/rafaeltuazon/Desktop/TutorConnect/app/src/main/AndroidManifest.xml:12:7-38
 	android:name
-		ADDED from /Users/rafaeltuazon/Desktop/Whysoserious---final/app/src/main/AndroidManifest.xml:6:7-26
+		ADDED from /Users/rafaeltuazon/Desktop/TutorConnect/app/src/main/AndroidManifest.xml:6:7-26
 activity#com.raywenderlich.android.whysoserious.ui.welcome.WelcomeActivity
-ADDED from /Users/rafaeltuazon/Desktop/Whysoserious---final/app/src/main/AndroidManifest.xml:14:5-20:16
+ADDED from /Users/rafaeltuazon/Desktop/TutorConnect/app/src/main/AndroidManifest.xml:14:5-20:16
 	android:name
-		ADDED from /Users/rafaeltuazon/Desktop/Whysoserious---final/app/src/main/AndroidManifest.xml:14:15-57
+		ADDED from /Users/rafaeltuazon/Desktop/TutorConnect/app/src/main/AndroidManifest.xml:14:15-57
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from /Users/rafaeltuazon/Desktop/Whysoserious---final/app/src/main/AndroidManifest.xml:15:7-19:23
+ADDED from /Users/rafaeltuazon/Desktop/TutorConnect/app/src/main/AndroidManifest.xml:15:7-19:23
 action#android.intent.action.MAIN
-ADDED from /Users/rafaeltuazon/Desktop/Whysoserious---final/app/src/main/AndroidManifest.xml:16:9-60
+ADDED from /Users/rafaeltuazon/Desktop/TutorConnect/app/src/main/AndroidManifest.xml:16:9-60
 	android:name
-		ADDED from /Users/rafaeltuazon/Desktop/Whysoserious---final/app/src/main/AndroidManifest.xml:16:17-58
+		ADDED from /Users/rafaeltuazon/Desktop/TutorConnect/app/src/main/AndroidManifest.xml:16:17-58
 category#android.intent.category.LAUNCHER
-ADDED from /Users/rafaeltuazon/Desktop/Whysoserious---final/app/src/main/AndroidManifest.xml:18:9-68
+ADDED from /Users/rafaeltuazon/Desktop/TutorConnect/app/src/main/AndroidManifest.xml:18:9-68
 	android:name
-		ADDED from /Users/rafaeltuazon/Desktop/Whysoserious---final/app/src/main/AndroidManifest.xml:18:19-66
+		ADDED from /Users/rafaeltuazon/Desktop/TutorConnect/app/src/main/AndroidManifest.xml:18:19-66
 activity#com.raywenderlich.android.whysoserious.ui.login.LoginActivity
-ADDED from /Users/rafaeltuazon/Desktop/Whysoserious---final/app/src/main/AndroidManifest.xml:22:5-25:71
+ADDED from /Users/rafaeltuazon/Desktop/TutorConnect/app/src/main/AndroidManifest.xml:22:5-25:71
 	android:screenOrientation
-		ADDED from /Users/rafaeltuazon/Desktop/Whysoserious---final/app/src/main/AndroidManifest.xml:24:9-45
+		ADDED from /Users/rafaeltuazon/Desktop/TutorConnect/app/src/main/AndroidManifest.xml:24:9-45
 	android:windowSoftInputMode
-		ADDED from /Users/rafaeltuazon/Desktop/Whysoserious---final/app/src/main/AndroidManifest.xml:25:9-69
+		ADDED from /Users/rafaeltuazon/Desktop/TutorConnect/app/src/main/AndroidManifest.xml:25:9-69
 	android:name
-		ADDED from /Users/rafaeltuazon/Desktop/Whysoserious---final/app/src/main/AndroidManifest.xml:23:9-47
+		ADDED from /Users/rafaeltuazon/Desktop/TutorConnect/app/src/main/AndroidManifest.xml:23:9-47
 activity#com.raywenderlich.android.whysoserious.ui.register.RegisterActivity
-ADDED from /Users/rafaeltuazon/Desktop/Whysoserious---final/app/src/main/AndroidManifest.xml:27:5-30:71
+ADDED from /Users/rafaeltuazon/Desktop/TutorConnect/app/src/main/AndroidManifest.xml:27:5-30:71
 	android:screenOrientation
-		ADDED from /Users/rafaeltuazon/Desktop/Whysoserious---final/app/src/main/AndroidManifest.xml:29:9-45
+		ADDED from /Users/rafaeltuazon/Desktop/TutorConnect/app/src/main/AndroidManifest.xml:29:9-45
 	android:windowSoftInputMode
-		ADDED from /Users/rafaeltuazon/Desktop/Whysoserious---final/app/src/main/AndroidManifest.xml:30:9-69
+		ADDED from /Users/rafaeltuazon/Desktop/TutorConnect/app/src/main/AndroidManifest.xml:30:9-69
 	android:name
-		ADDED from /Users/rafaeltuazon/Desktop/Whysoserious---final/app/src/main/AndroidManifest.xml:28:9-53
+		ADDED from /Users/rafaeltuazon/Desktop/TutorConnect/app/src/main/AndroidManifest.xml:28:9-53
 activity#com.raywenderlich.android.whysoserious.ui.addJoke.AddJokeActivity
-ADDED from /Users/rafaeltuazon/Desktop/Whysoserious---final/app/src/main/AndroidManifest.xml:32:5-35:71
+ADDED from /Users/rafaeltuazon/Desktop/TutorConnect/app/src/main/AndroidManifest.xml:32:5-35:71
 	android:screenOrientation
-		ADDED from /Users/rafaeltuazon/Desktop/Whysoserious---final/app/src/main/AndroidManifest.xml:34:9-45
+		ADDED from /Users/rafaeltuazon/Desktop/TutorConnect/app/src/main/AndroidManifest.xml:34:9-45
 	android:windowSoftInputMode
-		ADDED from /Users/rafaeltuazon/Desktop/Whysoserious---final/app/src/main/AndroidManifest.xml:35:9-69
+		ADDED from /Users/rafaeltuazon/Desktop/TutorConnect/app/src/main/AndroidManifest.xml:35:9-69
 	android:name
-		ADDED from /Users/rafaeltuazon/Desktop/Whysoserious---final/app/src/main/AndroidManifest.xml:33:9-51
+		ADDED from /Users/rafaeltuazon/Desktop/TutorConnect/app/src/main/AndroidManifest.xml:33:9-51
 activity#com.raywenderlich.android.whysoserious.ui.main.MainActivity
-ADDED from /Users/rafaeltuazon/Desktop/Whysoserious---final/app/src/main/AndroidManifest.xml:37:5-40:43
+ADDED from /Users/rafaeltuazon/Desktop/TutorConnect/app/src/main/AndroidManifest.xml:37:5-40:43
 	android:screenOrientation
-		ADDED from /Users/rafaeltuazon/Desktop/Whysoserious---final/app/src/main/AndroidManifest.xml:39:9-45
+		ADDED from /Users/rafaeltuazon/Desktop/TutorConnect/app/src/main/AndroidManifest.xml:39:9-45
 	android:theme
-		ADDED from /Users/rafaeltuazon/Desktop/Whysoserious---final/app/src/main/AndroidManifest.xml:40:9-41
+		ADDED from /Users/rafaeltuazon/Desktop/TutorConnect/app/src/main/AndroidManifest.xml:40:9-41
 	android:name
-		ADDED from /Users/rafaeltuazon/Desktop/Whysoserious---final/app/src/main/AndroidManifest.xml:38:9-45
+		ADDED from /Users/rafaeltuazon/Desktop/TutorConnect/app/src/main/AndroidManifest.xml:38:9-45
 uses-sdk
-INJECTED from /Users/rafaeltuazon/Desktop/Whysoserious---final/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from /Users/rafaeltuazon/Desktop/Whysoserious---final/app/src/main/AndroidManifest.xml
-INJECTED from /Users/rafaeltuazon/Desktop/Whysoserious---final/app/src/main/AndroidManifest.xml
+INJECTED from /Users/rafaeltuazon/Desktop/TutorConnect/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/rafaeltuazon/Desktop/TutorConnect/app/src/main/AndroidManifest.xml
+INJECTED from /Users/rafaeltuazon/Desktop/TutorConnect/app/src/main/AndroidManifest.xml
 MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/rafaeltuazon/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/25d22278efb15d19051533a1be52fa3a/AndroidManifest.xml:5:5-7:41
 MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/rafaeltuazon/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/25d22278efb15d19051533a1be52fa3a/AndroidManifest.xml:5:5-7:41
 MERGED from [com.android.support:design:27.1.1] /Users/rafaeltuazon/.gradle/caches/transforms-1/files-1.1/design-27.1.1.aar/f30ac40550ab40ad83cc45dcf6356c12/AndroidManifest.xml:20:5-44
@@ -245,16 +245,16 @@ MERGED from [android.arch.core:runtime:1.1.0] /Users/rafaeltuazon/.gradle/caches
 MERGED from [android.arch.core:runtime:1.1.0] /Users/rafaeltuazon/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/f05d12a015338a04e5616b30d2f99412/AndroidManifest.xml:20:5-44
 MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /Users/rafaeltuazon/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.0.aar/711f8a87ba47c887727f90cd9f4c5731/AndroidManifest.xml:20:5-44
 MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /Users/rafaeltuazon/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.0.aar/711f8a87ba47c887727f90cd9f4c5731/AndroidManifest.xml:20:5-44
-INJECTED from /Users/rafaeltuazon/Desktop/Whysoserious---final/app/src/main/AndroidManifest.xml
-INJECTED from /Users/rafaeltuazon/Desktop/Whysoserious---final/app/src/main/AndroidManifest.xml
+INJECTED from /Users/rafaeltuazon/Desktop/TutorConnect/app/src/main/AndroidManifest.xml
+INJECTED from /Users/rafaeltuazon/Desktop/TutorConnect/app/src/main/AndroidManifest.xml
 	android:targetSdkVersion
-		INJECTED from /Users/rafaeltuazon/Desktop/Whysoserious---final/app/src/main/AndroidManifest.xml
-		ADDED from /Users/rafaeltuazon/Desktop/Whysoserious---final/app/src/main/AndroidManifest.xml
-		INJECTED from /Users/rafaeltuazon/Desktop/Whysoserious---final/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/rafaeltuazon/Desktop/TutorConnect/app/src/main/AndroidManifest.xml
+		ADDED from /Users/rafaeltuazon/Desktop/TutorConnect/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/rafaeltuazon/Desktop/TutorConnect/app/src/main/AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from /Users/rafaeltuazon/Desktop/Whysoserious---final/app/src/main/AndroidManifest.xml
-		ADDED from /Users/rafaeltuazon/Desktop/Whysoserious---final/app/src/main/AndroidManifest.xml
-		INJECTED from /Users/rafaeltuazon/Desktop/Whysoserious---final/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/rafaeltuazon/Desktop/TutorConnect/app/src/main/AndroidManifest.xml
+		ADDED from /Users/rafaeltuazon/Desktop/TutorConnect/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/rafaeltuazon/Desktop/TutorConnect/app/src/main/AndroidManifest.xml
 activity#com.google.firebase.auth.internal.FederatedSignInActivity
 ADDED from [com.google.firebase:firebase-auth:15.0.0] /Users/rafaeltuazon/.gradle/caches/transforms-1/files-1.1/firebase-auth-15.0.0.aar/1f32514bfaa0f9d69aee9250fb68736c/AndroidManifest.xml:23:9-29:75
 	android:excludeFromRecents

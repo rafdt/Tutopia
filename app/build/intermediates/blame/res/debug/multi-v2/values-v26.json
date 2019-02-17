@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/rafaeltuazon/Desktop/Whysoserious---final/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v26/values-v26.xml",
+            "outputFile": "/Users/rafaeltuazon/Desktop/TutorConnect/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v26/values-v26.xml",
             "map": [
                 {
                     "source": "/Users/rafaeltuazon/.gradle/caches/transforms-1/files-1.1/design-27.1.1.aar/f30ac40550ab40ad83cc45dcf6356c12/res/values-v26/values-v26.xml",

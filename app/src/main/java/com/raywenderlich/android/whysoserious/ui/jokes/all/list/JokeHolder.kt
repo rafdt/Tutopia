@@ -22,8 +22,11 @@
 
 package com.raywenderlich.android.whysoserious.ui.jokes.all.list
 
+import android.content.Intent
 import android.graphics.Bitmap
 import android.graphics.BitmapFactory
+import android.net.Uri
+import android.support.v4.content.ContextCompat.startActivity
 import android.support.v7.widget.RecyclerView
 import android.util.Log
 import android.view.View
@@ -48,11 +51,17 @@ class JokeHolder(
     jokeDescription.text = joke.text
 
     favoriteButton.setImageResource(if(joke.isFavorite) R.drawable.ic_favorite_filled else R.drawable.ic_favorite_border)
-      tutorPic.setImageResource(R.drawable.samoyed)
+      //tutorPic.setImageResource(R.drawable.samoyed)
+      tutorPic.onClick{
+          val emailIntent = Intent(Intent.ACTION_SENDTO, Uri.fromParts("mailto",joke.authorName + "@gmail.com",
+          null))
+          emailIntent.putExtra(Intent.EXTRA_SUBJECT, "Tutoring from Tutopia")
+          startActivity(context, Intent.createChooser(emailIntent, "Send email"), null)
+      }
   }
     fun changeImage(bitmap: Bitmap) = with(itemView){
         if(bitmap == null){
-            tutorPic.setImageResource(R.drawable.samoyed)
+            //tutorPic.setImageResource(R.drawable.samoyed)
 
         }else {
             tutorPic.setImageBitmap(bitmap)

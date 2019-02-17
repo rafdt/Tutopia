@@ -84,8 +84,7 @@
       app:layout_constraintBottom_toTopOf="@+id/logoutButton"
       app:layout_constraintEnd_toEndOf="parent"
       app:layout_constraintStart_toStartOf="parent"
-      app:layout_constraintTop_toBottomOf="@+id/uploadBtn"
-      app:srcCompat="@drawable/doggo" />
+      app:layout_constraintTop_toBottomOf="@+id/uploadBtn" />
 
   <Button
       android:id="@+id/profile_image"

@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/Whysoserious---final.iml" filepath="$PROJECT_DIR$/Whysoserious---final.iml" />
+      <module fileurl="file://$PROJECT_DIR$/TutorConnect.iml" filepath="$PROJECT_DIR$/TutorConnect.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
     </modules>
   </component>

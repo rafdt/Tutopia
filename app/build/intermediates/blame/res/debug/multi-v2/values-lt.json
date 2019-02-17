@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/rafaeltuazon/Desktop/Whysoserious---final/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-lt/values-lt.xml",
+            "outputFile": "/Users/rafaeltuazon/Desktop/TutorConnect/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-lt/values-lt.xml",
             "map": [
                 {
                     "source": "/Users/rafaeltuazon/.gradle/caches/transforms-1/files-1.1/play-services-basement-16.0.1.aar/ab04e4a541f70b379aeabd251a0298cd/res/values-lt/values.xml",
