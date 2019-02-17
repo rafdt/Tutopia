@@ -20,6 +20,8 @@
  * THE SOFTWARE.
  */
 
+package com.raywenderlich.android.whysoserious.ui.jokes.all.list
+
 import android.support.v7.widget.RecyclerView
 import android.view.LayoutInflater
 import android.view.ViewGroup
@@ -43,9 +45,7 @@ class JokeAdapter(
 
   override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): JokeHolder {
     val view = LayoutInflater.from(parent.context).inflate(R.layout.item_joke, parent, false)
-   Glide.with(parent.context)
-           .load("https://firebasestorage.googleapis.com/v0/b/why-so-serious-49ff6.appspot.com/o/uploads%2Fhelloworld.jpg?alt=media&token=d20de023-6629-4252-9197-e3de00829244")
-           .into(view.findViewById<ImageView>(R.id.tutorPic))
+
     return JokeHolder(view, onFavoriteClickHandler)
   }
 
