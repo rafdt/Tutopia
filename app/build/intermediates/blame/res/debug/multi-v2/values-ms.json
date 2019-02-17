@@ -1,27 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\aliyu\\Desktop\\Whysoserious\\Whysoserious - final\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-ms\\values-ms.xml",
+            "outputFile": "/Users/rafaeltuazon/Desktop/Whysoserious---final/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-ms/values-ms.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\aliyu\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\f7d1c085b205b333acf068ba670ec5ac\\res\\values-ms\\values-ms.xml",
-                    "from": {
-                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "105,216,321,429,516,620,731,809,888,968,1080,1189,1286,1395,1498,1605,1764,1865",
-                        "endColumns": "110,104,107,86,103,110,77,78,79,111,108,96,108,102,106,158,100,79",
-                        "endOffsets": "211,316,424,511,615,726,804,883,963,1075,1184,1281,1390,1493,1600,1759,1860,1940"
-                    },
-                    "to": {
-                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,37",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "105,216,321,429,516,620,731,809,888,968,1080,1189,1286,1395,1498,1605,1764,4710",
-                        "endColumns": "110,104,107,86,103,110,77,78,79,111,108,96,108,102,106,158,100,79",
-                        "endOffsets": "211,316,424,511,615,726,804,883,963,1075,1184,1281,1390,1493,1600,1759,1860,4785"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\aliyu\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-16.0.1.aar\\36e61b7ecb82b91cc6118d6a51283663\\res\\values-ms\\values.xml",
+                    "source": "/Users/rafaeltuazon/.gradle/caches/transforms-1/files-1.1/play-services-base-16.0.1.aar/b5d800260f04fb4706aa1bfd1c3c3122/res/values-ms/values.xml",
                     "from": {
                         "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20",
                         "startColumns": "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0",
@@ -38,7 +21,24 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\aliyu\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-basement-16.0.1.aar\\93186987e1f34b8427b1fac841385216\\res\\values-ms\\values.xml",
+                    "source": "/Users/rafaeltuazon/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/6e87586afaca522b78ba1e65d85929b7/res/values-ms/values-ms.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "38",
+                        "startColumns": "4",
+                        "startOffsets": "4790",
+                        "endColumns": "100",
+                        "endOffsets": "4886"
+                    }
+                },
+                {
+                    "source": "/Users/rafaeltuazon/.gradle/caches/transforms-1/files-1.1/play-services-basement-16.0.1.aar/ab04e4a541f70b379aeabd251a0298cd/res/values-ms/values.xml",
                     "from": {
                         "startLines": "4",
                         "startColumns": "0",
@@ -55,20 +55,20 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\aliyu\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.1.1.aar\\bfbf9e52297fcf9603f896f06822fcc6\\res\\values-ms\\values-ms.xml",
+                    "source": "/Users/rafaeltuazon/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/8f1ab4aa13a3771a8ef9d927a587f831/res/values-ms/values-ms.xml",
                     "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "100",
-                        "endOffsets": "151"
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "105,216,321,429,516,620,731,809,888,968,1080,1189,1286,1395,1498,1605,1764,1865",
+                        "endColumns": "110,104,107,86,103,110,77,78,79,111,108,96,108,102,106,158,100,79",
+                        "endOffsets": "211,316,424,511,615,726,804,883,963,1075,1184,1281,1390,1493,1600,1759,1860,1940"
                     },
                     "to": {
-                        "startLines": "38",
-                        "startColumns": "4",
-                        "startOffsets": "4790",
-                        "endColumns": "100",
-                        "endOffsets": "4886"
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,37",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "105,216,321,429,516,620,731,809,888,968,1080,1189,1286,1395,1498,1605,1764,4710",
+                        "endColumns": "110,104,107,86,103,110,77,78,79,111,108,96,108,102,106,158,100,79",
+                        "endOffsets": "211,316,424,511,615,726,804,883,963,1075,1184,1281,1390,1493,1600,1759,1860,4785"
                     }
                 }
             ]

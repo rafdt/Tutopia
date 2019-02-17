@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\aliyu\\Desktop\\Whysoserious\\Whysoserious - final\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-or\\values-or.xml",
+            "outputFile": "/Users/rafaeltuazon/Desktop/Whysoserious---final/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-or/values-or.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\aliyu\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-16.0.1.aar\\36e61b7ecb82b91cc6118d6a51283663\\res\\values-or\\values.xml",
+                    "source": "/Users/rafaeltuazon/.gradle/caches/transforms-1/files-1.1/play-services-base-16.0.1.aar/b5d800260f04fb4706aa1bfd1c3c3122/res/values-or/values.xml",
                     "from": {
                         "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20",
                         "startColumns": "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0",
@@ -21,7 +21,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\aliyu\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-basement-16.0.1.aar\\93186987e1f34b8427b1fac841385216\\res\\values-or\\values.xml",
+                    "source": "/Users/rafaeltuazon/.gradle/caches/transforms-1/files-1.1/play-services-basement-16.0.1.aar/ab04e4a541f70b379aeabd251a0298cd/res/values-or/values.xml",
                     "from": {
                         "startLines": "4",
                         "startColumns": "0",

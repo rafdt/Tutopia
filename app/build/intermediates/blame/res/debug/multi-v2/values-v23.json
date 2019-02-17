@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\aliyu\\Desktop\\Whysoserious\\Whysoserious - final\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v23\\values-v23.xml",
+            "outputFile": "/Users/rafaeltuazon/Desktop/Whysoserious---final/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v23/values-v23.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\aliyu\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\f7d1c085b205b333acf068ba670ec5ac\\res\\values-v23\\values-v23.xml",
+                    "source": "/Users/rafaeltuazon/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/8f1ab4aa13a3771a8ef9d927a587f831/res/values-v23/values-v23.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,19,32,33,34,35,36",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4",
@@ -15,7 +15,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\aliyu\\.gradle\\caches\\transforms-1\\files-1.1\\cardview-v7-27.1.1.aar\\2dd025521d5273fd331826c5ed34a6a8\\res\\values-v23\\values-v23.xml",
+                    "source": "/Users/rafaeltuazon/.gradle/caches/transforms-1/files-1.1/cardview-v7-27.1.1.aar/462debeae47ab64025b73b59c825afbf/res/values-v23/values-v23.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
