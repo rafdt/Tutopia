@@ -5,11 +5,10 @@
     build-mode="COLD"
     density="xxhdpi"
     format="10"
-    ir-eligibility="COMPATIBLE"
     plugin-version="3.1.1"
-    timestamp="1550371110278"
+    timestamp="1550392913143"
     token="6428551164325330287"
-    verifier="COLD_SWAP_REQUESTED" >
+    verifier="FIELD_ADDED" >
 
     <task
         name="javac"
@@ -19,10 +18,10 @@
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="22" />
+        duration="36" />
     <task
         name="verifier"
-        duration="3" />
+        duration="14" />
 
     <artifact
         location="C:\Users\aliyu\Desktop\Whysoserious\Whysoserious - final\app\build\intermediates\split-apk\debug\slices\slice_4.apk"
@@ -30,7 +29,7 @@
 
     <build
         build-mode="FULL"
-        timestamp="1550369281634"
+        timestamp="1550389723224"
         verifier="FULL_BUILD_REQUESTED" >
         <artifact
             location="C:\Users\aliyu\Desktop\Whysoserious\Whysoserious - final\app\build\intermediates\split-apk\debug\slices\slice_4.apk"
@@ -74,21 +73,8 @@
     </build>
     <build
         build-mode="COLD"
-        ir-eligibility="CLASS_ADDED"
-        timestamp="1550369863693"
-        verifier="COLD_SWAP_REQUESTED" >
-        <artifact
-            location="C:\Users\aliyu\Desktop\Whysoserious\Whysoserious - final\app\build\intermediates\split-apk\debug\dep\dependencies.apk"
-            type="SPLIT" />
-        <artifact
-            location="C:\Users\aliyu\Desktop\Whysoserious\Whysoserious - final\app\build\intermediates\split-apk\debug\slices\slice_8.apk"
-            type="SPLIT" />
-    </build>
-    <build
-        build-mode="COLD"
-        ir-eligibility="COMPATIBLE"
-        timestamp="1550371110278"
-        verifier="COLD_SWAP_REQUESTED" >
+        timestamp="1550392913143"
+        verifier="FIELD_ADDED" >
         <artifact
             location="C:\Users\aliyu\Desktop\Whysoserious\Whysoserious - final\app\build\intermediates\split-apk\debug\slices\slice_4.apk"
             type="SPLIT" />

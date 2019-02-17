@@ -182,12 +182,13 @@ class ProfileFragment : Fragment(), ProfileView {
   }
   fun showTutor(tutor: String){
     //tutorpic
-    val storage = FirebaseStorage.getInstance()
+    //val storage = FirebaseStorage.getInstance()
     // Create a storage reference from our app
-    val storageRef = storage.reference
+    //val storageRef = storage.reference
 
 // Create a reference with an initial file path and name
-    val pathReference = storageRef.child("uploads/"+tutor+".jpg")
+    //val pathReference = storageRef.child("uploads/"+tutor+".jpg")
+    /*
     var myTutor: Task<Uri> = storageRef.child("uploads/"+tutor+".jpg").downloadUrl.addOnSuccessListener {
       // Got the download URL for 'users/me/profile.png'
         Toast.makeText(context,"downloaded successfully", Toast.LENGTH_LONG).show()
@@ -208,7 +209,7 @@ class ProfileFragment : Fragment(), ProfileView {
           exception.printStackTrace();
         }
     }
-
+*/
 
   }
 }
