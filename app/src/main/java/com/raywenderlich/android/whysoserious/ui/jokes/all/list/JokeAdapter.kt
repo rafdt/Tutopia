@@ -22,6 +22,7 @@
 
 package com.raywenderlich.android.whysoserious.ui.jokes.all.list
 
+import android.graphics.Bitmap
 import android.graphics.BitmapFactory
 import android.media.Image
 import android.net.Uri
@@ -35,9 +36,11 @@ import android.widget.Toast
 import com.bumptech.glide.Glide
 import com.google.android.gms.tasks.Task
 import com.google.firebase.storage.FirebaseStorage
-import com.raywenderlich.android.whysoserious.R
 import com.raywenderlich.android.whysoserious.model.Joke
 import java.io.File
+import android.R
+
+
 
 class JokeAdapter(
     private val onFavoriteClickHandler: (Joke) -> Unit
@@ -45,7 +48,7 @@ class JokeAdapter(
 
   private val items = mutableListOf<Joke>()
   private val favoriteJokesIds = mutableListOf<String>()
-
+    var numtimes = 1;
   override fun getItemCount() = items.size
 
   fun setFavoriteJokesIds(ids: List<String>) {
@@ -55,34 +58,63 @@ class JokeAdapter(
   }
 
   override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): JokeHolder {
-    val view = LayoutInflater.from(parent.context).inflate(R.layout.item_joke, parent, false)
-
-      setPics(parent,view)
+    val view = LayoutInflater.from(parent.context).inflate(com.raywenderlich.android.whysoserious.R.layout.item_joke, parent, false)
+        Log.d("item size", items.size.toString())
+      //setPics(parent,view)
+     // var bitmap:Bitmap = setPics(parent,view)
       return JokeHolder(view, onFavoriteClickHandler)
   }
 
-    fun setPics(parent: ViewGroup, view:View){
-        for (item in items){
-            val nameAuthor = item.authorName
+    fun setPics(joke: Joke, holder: JokeHolder):Bitmap?{
+        val conf = Bitmap.Config.ARGB_8888 // see other conf types
+
+        var bitmap: Bitmap? = null
+            Log.d("num: ", numtimes.toString())
+
+            val nameAuthor = joke.authorName
             val storage = FirebaseStorage.getInstance()
             val storageRef = storage.reference
-            val pathReference = storageRef.child("uploads/"+nameAuthor+".jpg")
-            Toast.makeText(parent.context, pathReference.toString(), Toast.LENGTH_LONG).show()
+            val pathReference = storageRef.child("uploads/$nameAuthor.jpg")
+          //  Toast.makeText(parent.context, pathReference.toString(), Toast.LENGTH_LONG).show()
             val ONE_MEGABYTE = (1024*1024*5).toLong()
             pathReference.getBytes(ONE_MEGABYTE).addOnSuccessListener {bytes->
                 val bmp = BitmapFactory.decodeByteArray(bytes,0,bytes.size)
-                view.findViewById<ImageView>(R.id.tutorPic).setImageBitmap(bmp)
-                Log.d("author name", nameAuthor)
-            }.addOnFailureListener {
-                Toast.makeText(parent.context,"oh no ", Toast.LENGTH_LONG).show()
-            }
-        }
+                bitmap = bmp
+                if(bitmap != null){
+                  Log.d("bitmap ", "is not null in setter")
+                    bmp(bitmap, holder)
+                }else{
+                    Log.d("bitmap ", "nulllll in setter")
+                    bmp(null, holder)
 
+                }
+                //view.findViewById<ImageView>(com.raywenderlich.android.whysoserious.R.id.tutorPic).setImageBitmap(bmp)
+                Log.d("author name", nameAuthor +" "+ numtimes)
+                Log.d("path ", pathReference.toString())
+               // return@addOnSuccessListener
+            }.addOnFailureListener {
+                //Toast.makeText(parent.context,"oh no ", Toast.LENGTH_LONG).show()
+                Log.d("fail ", "oh no")
+            }.addOnCompleteListener{
+                bmp(bitmap, holder)
+            }
+            numtimes++
+
+        if(bitmap != null){
+            Log.d("bitmap ", "is not null in setPics")
+        }else{
+            Log.d("bitmap ", "nulllll in setPics")
+        }
+        return bitmap
+    }
+    fun bmp(bitmap: Bitmap?, holder: JokeHolder){
+        holder.changeImage(bitmap!!)
     }
   override fun onBindViewHolder(holder: JokeHolder, position: Int) {
     val joke = items[position].apply { isFavorite = id in favoriteJokesIds }
 
     holder.displayData(joke)
+    setPics(joke, holder)
   }
 
   fun addJoke(joke: Joke) {

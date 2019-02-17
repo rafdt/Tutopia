@@ -22,12 +22,19 @@
 
 package com.raywenderlich.android.whysoserious.ui.jokes.all.list
 
+import android.graphics.Bitmap
+import android.graphics.BitmapFactory
 import android.support.v7.widget.RecyclerView
+import android.util.Log
 import android.view.View
+import android.widget.ImageView
+import android.widget.Toast
+import com.google.firebase.storage.FirebaseStorage
 import com.raywenderlich.android.whysoserious.R
 import com.raywenderlich.android.whysoserious.common.onClick
 import com.raywenderlich.android.whysoserious.model.Joke
 import kotlinx.android.synthetic.main.item_joke.view.*
+var myBitmap: Bitmap? = null
 
 class JokeHolder(
     itemView: View,
@@ -41,5 +48,15 @@ class JokeHolder(
     jokeDescription.text = joke.text
 
     favoriteButton.setImageResource(if(joke.isFavorite) R.drawable.ic_favorite_filled else R.drawable.ic_favorite_border)
+      tutorPic.setImageResource(R.drawable.samoyed)
   }
+    fun changeImage(bitmap: Bitmap) = with(itemView){
+        if(bitmap == null){
+            tutorPic.setImageResource(R.drawable.samoyed)
+
+        }else {
+            tutorPic.setImageBitmap(bitmap)
+        }
+    }
+
 }
