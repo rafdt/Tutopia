@@ -1,1 +1,2 @@
-# Whysoserious---final
+# Tutopia
+An app written in Java and Kotlin that lets you connect with tutors/students. You are prompted to create a profile in order to make any posts. You can upload a custom profile picture, and it will display next to your posts. Clicking on the image of the user who created the post will prompt to compose a respective email. Posts can be favorited and will be stored in a favorited tab. The app utilizes Google's Firebase. Profiles, posts, and favorited posts are stored in realtime database, while uploaded images are kept in storage. 
