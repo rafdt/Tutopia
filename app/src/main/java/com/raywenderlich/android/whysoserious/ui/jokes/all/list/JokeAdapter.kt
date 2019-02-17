@@ -75,6 +75,7 @@ class JokeAdapter(
             val storage = FirebaseStorage.getInstance()
             val storageRef = storage.reference
             val pathReference = storageRef.child("uploads/$nameAuthor.jpg")
+            Log.d("path ", pathReference.toString())
           //  Toast.makeText(parent.context, pathReference.toString(), Toast.LENGTH_LONG).show()
             val ONE_MEGABYTE = (1024*1024*5).toLong()
             pathReference.getBytes(ONE_MEGABYTE).addOnSuccessListener {bytes->
