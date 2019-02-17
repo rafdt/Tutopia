@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">928209186390-jmh8ics0ouoej36cs90gg0ubprv2krj5.apps.googleusercontent.com</string>
+    <string name="firebase_database_url" translatable="false">https://why-so-serious-49ff6.firebaseio.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">928209186390</string>
+    <string name="google_api_key" translatable="false">AIzaSyAjsR3Ub4k5ChRK5IQSrS4O0_uMF7S6P1k</string>
+    <string name="google_app_id" translatable="false">1:928209186390:android:7883aaa4b62bd385</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyAjsR3Ub4k5ChRK5IQSrS4O0_uMF7S6P1k</string>
+    <string name="google_storage_bucket" translatable="false">why-so-serious-49ff6.appspot.com</string>
+    <string name="project_id" translatable="false">why-so-serious-49ff6</string>
+</resources>

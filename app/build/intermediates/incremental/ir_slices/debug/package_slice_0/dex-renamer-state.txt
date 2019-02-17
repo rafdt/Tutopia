@@ -1,0 +1,4 @@
+#Sat Feb 16 17:21:51 PST 2019
+base.0=C\:\\Users\\aliyu\\Desktop\\Whysoserious\\Whysoserious - final\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\0
+path.0=classes.dex
+renamed.0=classes.dex
