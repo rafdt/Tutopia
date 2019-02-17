@@ -20,8 +20,6 @@
  * THE SOFTWARE.
  */
 
-package com.raywenderlich.android.whysoserious.ui.profile
-
 import android.app.Activity.RESULT_OK
 import android.content.ContentResolver
 import android.content.Intent
@@ -69,7 +67,7 @@ class ProfileFragment : Fragment(), ProfileView {
   var user = ""
   var isChosen = false
   private lateinit var database: DatabaseReference
-  var myUri: Uri = Uri.parse("http://google.com");
+  var myUri: Uri = Uri.parse("http://google.com")
 
   private fun getFileExtension():String{
 
@@ -197,10 +195,11 @@ class ProfileFragment : Fragment(), ProfileView {
 
     }.addOnCompleteListener {
       Toast.makeText(context,"downloaded donezo", Toast.LENGTH_LONG).show()
+      ;
       //Glide.with(this!!.context!!).load(pathReference).into(tutorPic)
      // Glide.with(this!!.context!!).load("https://firebasestorage.googleapis.com/v0/b/why-so-serious-49ff6.appspot.com/o/uploads%2Fhelloworld.jpg?alt=media&token=d20de023-6629-4252-9197-e3de00829244").into(tutorPic)
         try {
-          context?.let { it1 -> Glide.with(it1).load(pathReference).into(tutorPic) };
+          context?.let { it1 -> Glide.with(it1).load(Task<Uri>.result).into(tutorPic) };
         } catch (exception:Exception) {
 
           Toast.makeText(context,"cannot glide " + pathReference.toString(), Toast.LENGTH_LONG).show()
