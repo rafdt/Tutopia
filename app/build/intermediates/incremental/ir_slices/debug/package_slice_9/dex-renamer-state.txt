@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 #Sun Feb 17 07:11:16 PST 2019
+=======
+#Sun Feb 17 00:11:51 PST 2019
+>>>>>>> 0581c09cd39271f44096ca8b9487c67bbdc01a6b
 base.0=/Users/rafaeltuazon/Desktop/Whysoserious---final/app/build/intermediates/transforms/dexMerger/debug/9
 path.0=classes.dex
 renamed.0=classes.dex

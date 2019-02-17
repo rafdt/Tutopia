@@ -2,6 +2,7 @@
 <instant-run
     abi="x86"
     api-level="28"
+<<<<<<< HEAD
     build-mode="COLD"
     density="420dpi"
     format="10"
@@ -14,11 +15,25 @@
     <task
         name="javac"
         duration="108" />
+=======
+    build-mode="FULL"
+    density="420dpi"
+    format="10"
+    plugin-version="3.1.1"
+    timestamp="1550391081292"
+    token="3890204371294150201"
+    verifier="FULL_BUILD_REQUESTED" >
+
+    <task
+        name="javac"
+        duration="707" />
+>>>>>>> 0581c09cd39271f44096ca8b9487c67bbdc01a6b
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
+<<<<<<< HEAD
         duration="60" />
     <task
         name="verifier"
@@ -26,11 +41,60 @@
 
     <artifact
         location="/Users/rafaeltuazon/Desktop/Whysoserious---final/app/build/intermediates/split-apk/debug/slices/slice_1.apk"
+=======
+        duration="578" />
+    <task
+        name="verifier"
+        duration="488" />
+
+    <artifact
+        location="/Users/rafaeltuazon/Desktop/Whysoserious---final/app/build/intermediates/resources/instant-run/debug/resources-debug.apk"
         type="SPLIT" />
+    <artifact
+        location="/Users/rafaeltuazon/Desktop/Whysoserious---final/app/build/intermediates/split-apk/debug/dep/dependencies.apk"
+        type="SPLIT" />
+    <artifact
+        location="/Users/rafaeltuazon/Desktop/Whysoserious---final/app/build/intermediates/split-apk/debug/slices/slice_1.apk"
+        type="SPLIT" />
+    <artifact
+        location="/Users/rafaeltuazon/Desktop/Whysoserious---final/app/build/intermediates/split-apk/debug/slices/slice_2.apk"
+        type="SPLIT" />
+    <artifact
+        location="/Users/rafaeltuazon/Desktop/Whysoserious---final/app/build/intermediates/split-apk/debug/slices/slice_0.apk"
+        type="SPLIT" />
+    <artifact
+        location="/Users/rafaeltuazon/Desktop/Whysoserious---final/app/build/intermediates/split-apk/debug/slices/slice_3.apk"
+        type="SPLIT" />
+    <artifact
+        location="/Users/rafaeltuazon/Desktop/Whysoserious---final/app/build/intermediates/split-apk/debug/slices/slice_4.apk"
+        type="SPLIT" />
+    <artifact
+        location="/Users/rafaeltuazon/Desktop/Whysoserious---final/app/build/intermediates/split-apk/debug/slices/slice_5.apk"
+        type="SPLIT" />
+    <artifact
+        location="/Users/rafaeltuazon/Desktop/Whysoserious---final/app/build/intermediates/split-apk/debug/slices/slice_6.apk"
+>>>>>>> 0581c09cd39271f44096ca8b9487c67bbdc01a6b
+        type="SPLIT" />
+    <artifact
+        location="/Users/rafaeltuazon/Desktop/Whysoserious---final/app/build/intermediates/split-apk/debug/slices/slice_7.apk"
+        type="SPLIT" />
+    <artifact
+        location="/Users/rafaeltuazon/Desktop/Whysoserious---final/app/build/intermediates/split-apk/debug/slices/slice_8.apk"
+        type="SPLIT" />
+    <artifact
+        location="/Users/rafaeltuazon/Desktop/Whysoserious---final/app/build/intermediates/split-apk/debug/slices/slice_9.apk"
+        type="SPLIT" />
+    <artifact
+        location="/Users/rafaeltuazon/Desktop/Whysoserious---final/app/build/intermediates/instant-run-apk/debug/app-debug.apk"
+        type="SPLIT_MAIN" />
 
     <build
         build-mode="FULL"
+<<<<<<< HEAD
         timestamp="1550416231920"
+=======
+        timestamp="1550391081292"
+>>>>>>> 0581c09cd39271f44096ca8b9487c67bbdc01a6b
         verifier="FULL_BUILD_REQUESTED" >
         <artifact
             location="/Users/rafaeltuazon/Desktop/Whysoserious---final/app/build/intermediates/resources/instant-run/debug/resources-debug.apk"
@@ -39,10 +103,17 @@
             location="/Users/rafaeltuazon/Desktop/Whysoserious---final/app/build/intermediates/split-apk/debug/dep/dependencies.apk"
             type="SPLIT" />
         <artifact
+<<<<<<< HEAD
             location="/Users/rafaeltuazon/Desktop/Whysoserious---final/app/build/intermediates/split-apk/debug/slices/slice_2.apk"
             type="SPLIT" />
         <artifact
             location="/Users/rafaeltuazon/Desktop/Whysoserious---final/app/build/intermediates/split-apk/debug/slices/slice_1.apk"
+=======
+            location="/Users/rafaeltuazon/Desktop/Whysoserious---final/app/build/intermediates/split-apk/debug/slices/slice_1.apk"
+            type="SPLIT" />
+        <artifact
+            location="/Users/rafaeltuazon/Desktop/Whysoserious---final/app/build/intermediates/split-apk/debug/slices/slice_2.apk"
+>>>>>>> 0581c09cd39271f44096ca8b9487c67bbdc01a6b
             type="SPLIT" />
         <artifact
             location="/Users/rafaeltuazon/Desktop/Whysoserious---final/app/build/intermediates/split-apk/debug/slices/slice_0.apk"
@@ -72,6 +143,7 @@
             location="/Users/rafaeltuazon/Desktop/Whysoserious---final/app/build/intermediates/instant-run-apk/debug/app-debug.apk"
             type="SPLIT_MAIN" />
     </build>
+<<<<<<< HEAD
     <build
         build-mode="COLD"
         ir-eligibility="COMPATIBLE"
@@ -98,5 +170,7 @@
             location="/Users/rafaeltuazon/Desktop/Whysoserious---final/app/build/intermediates/split-apk/debug/slices/slice_1.apk"
             type="SPLIT" />
     </build>
+=======
+>>>>>>> 0581c09cd39271f44096ca8b9487c67bbdc01a6b
 
 </instant-run>
